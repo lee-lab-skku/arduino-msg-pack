@@ -16,9 +16,20 @@
     "frameworks": "arduino",
     "platforms": "*",
     "dependencies":
-    {
-        "hideakitai/ArxContainer": ">=0.6.0",
-        "hideakitai/ArxTypeTraits": "*",
-        "hideakitai/DebugLog": ">=0.8.1"
-    }
+    [
+        {
+            "owner": "hideakitai",
+            "name": "ArxContainer",
+            "version": ">=0.6.0"
+        },
+        {
+            "owner": "hideakitai",
+            "name": "ArxTypeTraits",
+            "version": "*"
+        },
+        {
+            "name": "DebugLog",
+            "version": "https://github.com/hideakitai/DebugLog.git#main"
+        }
+    ]
 }
