@@ -11,7 +11,7 @@
         "url": "https://github.com/hideakitai",
         "maintainer": true
     },
-    "version": "0.4.3-fork.leelabskku",
+    "version": "0.4.3-leelabskku",
     "license": "MIT",
     "frameworks": "arduino",
     "platforms": "*",
