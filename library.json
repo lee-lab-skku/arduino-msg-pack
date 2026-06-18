@@ -4,7 +4,7 @@
     "description": "MessagePack implementation for Arduino (compatible with other C++ apps)",
     "repository": {
         "type": "git",
-        "url": "https://github.com/hideakitai/MsgPack.git"
+        "url": "https://github.com/lee-lab-skku/MsgPack.git"
     },
     "authors": {
         "name": "Hideaki Tai",
@@ -31,5 +31,8 @@
             "name": "DebugLog",
             "version": "https://github.com/hideakitai/DebugLog.git#main"
         }
-    ]
+    ],
+    "build": {
+        "flags": "-DDEBUGLOG_DEFAULT_ARDUINO_STREAM=Serial2"
+    }
 }
