@@ -2,6 +2,10 @@
 #ifndef HT_SERIAL_MSGPACK_H
 #define HT_SERIAL_MSGPACK_H
 
+#ifndef DEBUGLOG_DEFAULT_ARDUINO_STREAM
+#define DEBUGLOG_DEFAULT_ARDUINO_STREAM Serial2
+#endif
+
 #include <DebugLog.h>
 #ifdef MSGPACK_DEBUGLOG_ENABLE
 #include <DebugLogEnable.h>

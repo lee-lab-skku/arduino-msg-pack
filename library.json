@@ -31,8 +31,5 @@
             "name": "DebugLog",
             "version": "https://github.com/hideakitai/DebugLog.git#main"
         }
-    ],
-    "build": {
-        "flags": "-DDEBUGLOG_DEFAULT_ARDUINO_STREAM=Serial2"
-    }
+    ]
 }
