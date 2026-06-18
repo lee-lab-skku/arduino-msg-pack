@@ -31,5 +31,14 @@
             "name": "DebugLog",
             "version": "https://github.com/hideakitai/DebugLog.git#main"
         }
-    ]
+    ],
+    "export": {
+        "include": [
+            "MsgPack/**",
+            "library.json",
+            "LICENSE",
+            "MsgPack.h",
+            "README.md"
+        ]
+    }
 }
